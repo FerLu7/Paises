@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fldc.paises.MainActivity" >
+    <item android:id="@+id/settingsFragment"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/acercaDeFragment"
+        android:title="@string/acerca_de"
+        android:orderInCategory="99"
+        app:showAsAction="never" />
+</menu>
